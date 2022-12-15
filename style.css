@@ -1,8 +1,12 @@
 img {
     display: block;
-    width: 150px;
+    /* width: 150px; */
 }
 
+a {
+    display: inline;
+    border: 1px solid black;
+}
 div {
     border: 1px solid black;
     margin: 0 auto;
