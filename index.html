@@ -5,59 +5,77 @@
     <meta charset="utf-8">
     <title>Document</title>
 </head>
-<body>
-    <div>
-        <ul>
-            <li>Contacts</li>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Ccode example</li>
-            <li>Education</li>
-            <li>Knowledge of languages</li>
-        </ul>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li class="menu"><a href= "#contacts" class="link">Contacts</a></li>
+                <li class="menu"><a href="#aboutMe" class="link">About me</a></li>
+                <li class="menu"><a href="#skills" class="link">Skills</a></li>
+                <li class="menu"><a href="#codeExample" class="link">Code example</a></li>
+                <li class="menu"><a href="#education" class="link">Education</a></li>
+                <li class="menu"><a href="#knowledgeOfLanguages" class="link">Knowledge of languages</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div>
+    <main>
         <h1>My resume</h1>
         
-        <img src="./IMG_20220101_001246.jpg" alt="фото" width=32>
-        <p>Чайцына Алеся Сергеевна</p>
+        <img class="photo" src="./IMG_20220101_001246.jpg" alt="фото" width=32>
+        <p class="initials">Чайцына Алеся Сергеевна</p>
         
-        <ul>Contacts</ul>
-            <li>emal:</li>
-            <li>Github:</li>
-            <li>Telegram:</li>
-            <li>Discord:</li>
+        <div class="content" class="contentOnTheRight">
+            <ul id="contacts" class="headings">Contacts</ul>
+                <li>emal:</li>
+                <li>Github:</li>
+                <li>Telegram:</li>
+                <li>Discord:</li>
+        </div>
 
 
+        <div class="content">
+            <h3  class="headings" id="aboutMe">About me</h3>
+            <p>I like to learn something new and interesting for me. I have no experience in this field, but I strive to master new material and gain knowledge for self-realization.</p>
+        </div>
 
-        <h3 class="header">About me</h3>
-        <p>I like to learn something new and interesting for me. I have no experience in this field, but I strive to master new material and gain knowledge for self-realization.</p>
+        <div class="content" class="contentOnTheRight">
+            <ul id="skills"  class="headings">Skills</ul>
+                <li>HTML</li>
+                <li>CSS</li>
+        </div>
 
-        <ul>Skills</ul>
-            <li>HTML</li>
-            <li>CSS</li>
 
+       <div class="content">
+            <h3 id="codeExample"  class="headings">Code example</h3>
+            <pre>
+                &lt;h1&gt;Списки&lt;/h1;&gt;
+                &lt;h3&gt;Список цветов&lt;/h3&gt;
+                 &lt;ul&gt;
+                     &lt;li&gt;Красный&gt;/li&gt;
+                     &lt;li&gt;Желтый&gt;/li&gt;
+                     &lt;li&gt;Зеленый&gt;/li&gt;
+                     &lt;li&gt;Синий&gt;/li&gt;
+                 &lt;/ul&gt;
+            </pre>
+        </div>
 
-       
-        <h3>Code example</h3>
-        <p><body>
-            <h1>Списки</h1>
-            <h3>Список цветов</h3>
-            <ul>
-                <li>Красный</li>
-                <li>Желтый</li>
-                <li>Зеленый</li>
-                <li>Синий</li>
-            </ul></p>
+        <div class="content" class="contentOnTheRight">
+            <h3 id="education"  class="headings">Education</h3>
+            <p>BSPU them. M. Tanka</p>
+            <p>Higher pedagogical education</p>
+        </div>
 
-        <h3>Education</h3>
-        <p>BSPU them. M. Tanka</p>
-        <p>Higher pedagogical education</p>
+        <div class="content">
+            <h3 id="knowledgeOfLanguages"  class="headings">Knowledge of languages</h3>
+            <p>English A1</p>
+        </div>
 
-    
-        <h4>Knowledge of languages</h4>
-        <p>English A1</p>
-    </div>
+    </main>
+
+    <footer>
+        <a href= "https://github.com/AlesiaChaitsyna">https://github.com/AlesiaChaitsyna</a>
+        <span>2022/2023</span>
+        <a href="https://rs.school/js/"><img class="logo" src="./rs_school_js.svg" alt="logo"></a>
+    </footer>
 </body>
 </html>
